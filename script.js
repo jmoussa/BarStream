@@ -89,7 +89,7 @@ $(document).ready(function(){
                 data:{
                     method:'geo.gettoptracks',
                     country:'united states',
-                    api_key:'3a40254c60a07c34c7ba0fd15113082b',
+                    api_key:'YOUR_API_KEY',
                     format: 'json',
                 },
                 
