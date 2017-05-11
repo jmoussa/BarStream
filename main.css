@@ -1,0 +1,16 @@
+#map {
+    height: 100%;
+    width: 100%;
+}
+#map-container{
+    width:90%;
+    height:60%;
+    margin:auto;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40,40,40);
+}

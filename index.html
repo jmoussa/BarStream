@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BarStream</title>
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        <link rel="stylesheet" href="main.css" />
+        <script src="script.js"></script>
+    </head>
+    <body style="background-color:rgb(40,40,40);">
+    
+        <div class="jumbotron" style="background:linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.68)), url('http://www.liberty-bar.com/images/site/bar_banner_img.jpg');background-position: right bottom;">
+                <h1 style="color:white; font-size:800%; padding-left:3%;">BarStream</h1>
+                <h2 style="color:white; font-size:300%; padding-left:4%">Check Twitter Feeds at Nearby Bars & Top Tracks Based on Location</h2>
+        </div>
+        <div id="map-container">
+        <div id="map"></div>
+        </div>
+        
+        <div class="container">        
+            <div class="list">
+                <div class="results col-md-6 col-xs-6" style="margin-top: 30px;">
+                    <h2 style="color:white; text-align:center;">Nearby Bars</h2>
+                    <div class="panel-group" id="accordion">
+                        
+                    </div>
+                </div>
+                <div class="tracks col-sm-6 col-xs-6" style="margin-top: 30px;">
+                    <h2 style='color:white; text-align:center;'>Music</h2>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="modal" id="loader" data-keyboard="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body" style="text-align: center;">
+                            <h4>Grabbing Social Media From Nearby Bars/Restaurants...</h4>
+                            <p>
+                                <img src="loading.gif" />
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+        <!-- SCRIPTS -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBH_BzjN8d5rRhrCLTSg4YoYi9xcXSlNw0&libraries=places"></script>
+        </body>
+</html>
