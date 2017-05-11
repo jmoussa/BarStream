@@ -1,6 +1,6 @@
 <?php
-    $consumerKey = 'hDJrSOrOcyNfCWzH1GfJ7dxVy';//consumer key
-    $consumerSecret = 'JWsFKU0gXRHZptODaHmaTa0ax9tkNlbi1IPMVMU8vf4tKHvIxo';//consumer secret
+    $consumerKey = 'YOUR_API/CONSUMER_KEY';//consumer key
+    $consumerSecret = 'YOUR_CONSUMER_SECRET';//consumer secret
     $apiBaseURL = 'https://api.twitter.com/1.1';//base url for the API
     $tokenURL = 'https://api.twitter.com/oauth2/token';//url to authorize call
     
